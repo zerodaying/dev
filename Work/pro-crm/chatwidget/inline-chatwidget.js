@@ -87,7 +87,7 @@ function appendStyleElement(shadowRoot) {
     // Create a new <style> element with @import rule and an ID
     var newStyleElement = document.createElement('style');
     newStyleElement.id = styleId;
-    newStyleElement.textContent = '@import url("https://msg.everypages.com/inline-chat/inlinechat.css?' + randomNumber + '");';
+    newStyleElement.textContent = '@import url("https://raw.githubusercontent.com/chases-dev-sudo/dev/main/Work/pro-crm/chatwidget/inlinechat.css?' + randomNumber + '");';
 
     // Append the <style> element to the shadow root
     shadowRoot.appendChild(newStyleElement);
@@ -161,3 +161,4 @@ function hideChat() {
 
 }
 hideChat()
+
